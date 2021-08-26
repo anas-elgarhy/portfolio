@@ -21,9 +21,11 @@ Companies <br> worked
 * SERVICES
 services__modal-service
 I develop the user interface.
-Web page development.
+Develop a database if necessary.
+I support the program and repair faults for 6 months after purchase.
 I create ux element interactions.
 I position your company brand.
+Clean code.
 
 
 * PORTFOLIO
