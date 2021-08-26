@@ -465,10 +465,10 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="./assets/img/beautiful-wallpapers_website.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -482,7 +482,7 @@
                         </div>
 
                         <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="./assets/img/my-website.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -495,8 +495,8 @@
                             </div>
                         </div>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid">
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="./assets/img/calculate-the-age_app.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -507,13 +507,38 @@
                                     </a>
                             </div>
                         </div>
+
                     </div>
+                     <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
             <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">You have a new project</h2>
+                            <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact me 
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </a>
+                        </div>
 
+                        <img src="" alt="" class="project__img">
+                        
+                    </div>
+                </div>
 
             </section>
 
