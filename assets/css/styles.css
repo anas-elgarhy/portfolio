@@ -1318,7 +1318,7 @@ img{
     .swiper-button-prev{
         left: -3.5rem;
     }
-    .swiper-horizontal > .swiper-pagination-bullets{
+    .portfolio__container > .swiper-pagination-bullets{
         bottom: -4.5rem;
     }
 
