@@ -540,6 +540,19 @@ img{
     overflow: hidden;
 }
 
+/*============ skill 3 ============*/
+.skills__html{
+    width: 77%;
+}
+
+.skills__css{
+    width: 35%;
+}
+
+.skills__java-script{
+    width: 15%;
+}
+
 .skills__open .skills__list{
     height: max-content;
     margin-bottom: var(--mb-2-5);
@@ -1289,8 +1302,8 @@ img{
         transform: translateX(-6rem);
     }
 
-    .servces__container{
-        grid-template-columns: repeate(3, 238px);
+    .services__container{
+        grid-template-columns: repeat(3, 238px);
     }
 
     .portfolio__content{
